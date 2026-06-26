@@ -4,6 +4,7 @@ import About from "@/components/About";
 import Projects from "@/components/Projects";
 import Stack from "@/components/Stack";
 import Contact from "@/components/Contact";
+import WhatsAppFloat from "@/components/WhatsAppFloat";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <Stack />
         <Contact />
       </main>
+      <WhatsAppFloat />
     </>
   );
 }
